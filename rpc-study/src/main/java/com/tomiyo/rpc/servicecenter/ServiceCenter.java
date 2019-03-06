@@ -20,10 +20,10 @@ public class ServiceCenter implements Server {
 
   private static boolean isRunning = false;
 
-  private static int port;
+  private int port;
 
   public ServiceCenter(int port){
-    port = port;
+    this.port = port;
   }
 
   public void stop() {
