@@ -11,6 +11,7 @@
   <modules>
     <module>rpc-study</module>
     <module>compute</module>
+    <module>concurrency</module>
   </modules>
 
 
