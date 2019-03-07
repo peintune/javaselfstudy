@@ -11,6 +11,14 @@ public class WaitAndSleep {
 
     public static void main(String[] args){
         Object lock = new Object();
+        try {
+            System.out.println("test2");
+          //  lock.wait(1000);  IllegalMonitorStateException
+            System.out.println("test");
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
         new Thread(()->{
             System.out.println("Thread A is waiting to get lock");
                 synchronized (lock){
@@ -25,6 +33,7 @@ public class WaitAndSleep {
                 }
         }).start();
 
+        //为了让线程A 和线程B是按照 A->B 的顺序执行的
         try {
             Thread.sleep(200);
         } catch (InterruptedException e) {
@@ -37,6 +46,7 @@ public class WaitAndSleep {
                 System.out.println("Thead B get the lock");
                 try {
                     //lock.wait(1000);
+                    //lock.notifyAll();
                     Thread.sleep(3000);
                     System.out.println("Thread B done");
                 } catch (InterruptedException e) {
