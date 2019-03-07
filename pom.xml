@@ -10,6 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>rpc-study</module>
+    <module>compute</module>
   </modules>
 
 

@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7376e59-4ac0-4a0a-a489-e7cbf5082b27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/compute/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compute/src/test/java/SubStrTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/servicecenter/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/servicecenter/ServiceCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/test/RPCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/test/RPCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-study/target/classes/com/tomiyo/rpc/test/RPCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-study/target/classes/com/tomiyo/rpc/test/RPCTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rpc-study/target/" />
+    <ignored path="$PROJECT_DIR$/compute/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,47 +44,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DoubleAdder.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/DoubleAdder.java">
+      <file leaf-file-name="ServiceCenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/servicecenter/ServiceCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="274">
+              <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongAccumulator.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAccumulator.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compute/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+            <state relative-caret-position="147">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongAdder.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+      <file leaf-file-name="SubStrTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compute/src/test/java/SubStrTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+            <state relative-caret-position="112">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Striped64.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/Striped64.java">
+      <file leaf-file-name="RPCClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/client/RPCClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            <state relative-caret-position="-184">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#517#1572#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+      <file leaf-file-name="HelloServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/server/HelloServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2656">
-              <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RPCTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/test/RPCTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -113,20 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedBlockingQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedBlockingQueue.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-165">
               <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="565" column="73" selection-start-line="565" selection-start-column="67" selection-end-line="565" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -154,6 +167,7 @@
         <option value="$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/servicecenter/ServiceCenter.java" />
         <option value="$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/test/RPCTest.java" />
         <option value="$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/client/RPCClient.java" />
+        <option value="$PROJECT_DIR$/compute/src/test/java/SubStrTest.java" />
       </list>
     </option>
   </component>
@@ -192,7 +206,9 @@
     <option name="width" value="1380" />
     <option name="height" value="789" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -209,149 +225,35 @@
             <path>
               <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
+              <item name="compute" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
+              <item name="compute" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
+              <item name="compute" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
+              <item name="compute" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="servicecenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaselfstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-study" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="compute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="reflect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaselfstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="locks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -384,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SubStrTest">
     <configuration name="RPCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tomiyo.rpc.test.RPCTest" />
       <module name="rpc-study" />
@@ -398,6 +300,40 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SubStrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="compute" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubStrTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SubStrTest.subStringtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="compute" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubStrTest" />
+      <option name="METHOD_NAME" value="subStringtest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -437,8 +373,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.RPCTest" />
+      <item itemvalue="JUnit.SubStrTest.subStringtest" />
+      <item itemvalue="JUnit.SubStrTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SubStrTest" />
+        <item itemvalue="JUnit.SubStrTest.subStringtest" />
         <item itemvalue="Application.RPCTest" />
       </list>
     </recent_temporary>
@@ -456,40 +399,57 @@
       <workItem from="1551767190882" duration="2826000" />
       <workItem from="1551777521435" duration="464000" />
       <workItem from="1551778042160" duration="206000" />
-      <workItem from="1551779624802" duration="3324000" />
+      <workItem from="1551779624802" duration="5264000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SubStrTest_subStringtest - 2019.03.06 at 15h 14m 52s.xml">
+      <configuration name="SubStrTest.subStringtest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubStrTest_subStringtest - 2019.03.06 at 15h 15m 11s.xml">
+      <configuration name="SubStrTest.subStringtest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubStrTest_subStringtest - 2019.03.06 at 15h 16m 36s.xml">
+      <configuration name="SubStrTest.subStringtest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubStrTest_subStringtest - 2019.03.06 at 15h 17m 47s.xml">
+      <configuration name="SubStrTest.subStringtest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubStrTest - 2019.03.06 at 15h 18m 17s.xml">
+      <configuration name="SubStrTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8351000" />
+    <option name="totallyTimeSpent" value="10291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1396" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5029542" side_tool="true" visible="true" weight="0.28333333" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50516987" side_tool="true" visible="true" weight="0.18461539" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3293944" />
-      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.49926144" weight="0.32948717" />
+      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.4985229" weight="0.32948717" />
       <window_info anchor="right" id="Flutter Outline" weight="0.3293944" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Database" order="8" weight="0.3293944" />
-      <window_info id="Structure" order="1" sideWeight="0.15026833" side_tool="true" visible="true" weight="0.20310192" />
+      <window_info id="Structure" order="1" sideWeight="0.1509434" side_tool="true" visible="true" weight="0.20310192" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24963072" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4970458" visible="true" weight="0.28333333" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49483013" weight="0.28333333" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49926144" weight="0.32948717" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4970458" weight="0.32820514" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49335304" weight="0.32820514" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4970458" weight="0.32948717" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49926144" weight="0.32948717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49483013" visible="true" weight="0.18461539" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4985229" weight="0.32948717" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3293944" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49926144" weight="0.32948717" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8497317" visible="true" weight="0.20310192" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49778435" weight="0.32948717" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8490566" visible="true" weight="0.20310192" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="6" sideWeight="0.500956" side_tool="true" weight="0.20310192" />
@@ -572,8 +532,20 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/client/RPCClient.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/compute/src/test/java/SubStrTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -581,16 +553,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/servicecenter/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaselfstudy.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -598,60 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/servicecenter/ServiceCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="81" column="26" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#626#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/server/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/server/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/test/RPCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/client/RPCClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="e#517#1572#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="707" column="25" lean-forward="true" selection-start-line="707" selection-start-column="25" selection-end-line="707" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -950,6 +862,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
           <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/test/RPCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="703" column="63" selection-start-line="703" selection-start-column="53" selection-end-line="703" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/client/RPCClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#517#1572#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/server/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-study/src/main/java/com/tomiyo/rpc/servicecenter/ServiceCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compute/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compute/src/test/java/SubStrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
